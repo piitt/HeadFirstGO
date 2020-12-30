@@ -22,7 +22,7 @@ func main() {
 	fmt.Println("Can you guess it?")
 	// создаем буфферизированное средство для чтения
 	reader := bufio.NewReader(os.Stdin)
-	success :=false
+	success := false
 	for guesses := 0; guesses < 10; guesses++ {
 		fmt.Println("You have", 10-guesses, "guesses left.")
 		fmt.Print("Make a guess: ")
