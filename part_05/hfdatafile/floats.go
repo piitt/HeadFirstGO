@@ -3,7 +3,6 @@ package hfdatafile
 
 import (
 	"bufio"
-	"log"
 	"os"
 	"strconv"
 )
@@ -13,7 +12,7 @@ func GetFloats(fileName string) ([3]float64, error) {
 	var numbers [3]float64
 	file, err := os.Open(fileName)
 	if err != nil {
-		log.Fatal(err)
+		return numbers, err
 	}
 	i := 0
 	scanner := bufio.NewScanner(file)
