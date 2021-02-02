@@ -1,2 +1,3 @@
 .idea
-for_experiments/*
+experiments
+experiments_app
