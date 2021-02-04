@@ -13,7 +13,7 @@ func main() {
 	primesShot := [5]int{2, 3, 5, 7, 11}
 	fmt.Println(primesShot[1], primesShot[3], primesShot[4])
 
-	text := [3]string {
+	text := [3]string{
 		"This is a series of long strings",
 		"which would be awkward to place",
 		"together on a single line",

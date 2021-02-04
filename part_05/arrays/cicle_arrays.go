@@ -28,7 +28,7 @@ func main() {
 
 	fmt.Println("------------------")
 
-	for i:= 0; i<len(notesFor); i++ {
+	for i := 0; i < len(notesFor); i++ {
 		fmt.Println(i, notesFor[i])
 	}
 }

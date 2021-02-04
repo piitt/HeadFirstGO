@@ -1,8 +1,8 @@
 package main
 
 import (
-	"headfirstgo/part_08/magazinnerstruct"
 	"fmt"
+	"headfirstgo/part_08/magazinnerstruct"
 )
 
 func main() {

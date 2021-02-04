@@ -43,4 +43,3 @@ func (d *Date) Month() int {
 func (d *Date) Day() int {
 	return d.day
 }
-

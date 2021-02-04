@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"log"
+	"os"
 	"strconv"
-
 )
 
 func main() {
