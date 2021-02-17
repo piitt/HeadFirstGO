@@ -44,5 +44,6 @@ func viewHandler(writer http.ResponseWriter, request *http.Request) {
 
 func main() {
 	http.HandleFunc("/guestbook", viewHandler)
-	http.ListenAndServe("localhost:8080", nil)
+	err := http.ListenAndServe("localhost:8080", nil)
+	log.Fatal(err)
 }
